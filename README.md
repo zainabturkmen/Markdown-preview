@@ -12,7 +12,7 @@
 pnpm install pnpm start
 ```
 
- 
+   
 ```
 npm install npm start
 ```
