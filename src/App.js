@@ -11,7 +11,7 @@ function App() {
           value={markdown}
           onChange={(e) => setMarkdown(e.target.value)}
         ></textarea>
-        <article className="result"></article>
+        <article className="result">{markdown}</article>
       </section>
     </main>
   );
