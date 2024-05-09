@@ -6,7 +6,13 @@ function App() {
   return (
     <main>
       <section className="markdown">
-        <textarea className="input"  onChange={(e) => setMarkdown(e.target.value)}>heheh</textarea>
+        <textarea
+          className="input"
+          value={markdown}
+          onChange={(e) => setMarkdown(e.target.value)}
+        >
+          heheh
+        </textarea>
       </section>
     </main>
   );
