@@ -1,11 +1,15 @@
-import React, { useState } from 'react'
-import ReactMarkdown from 'react-markdown'
+import React, { useState } from "react";
+import ReactMarkdown from "react-markdown";
 
 function App() {
-  const [markdown, setMarkdown] = useState("## markdown preview")
-  return <main>
-    
-  </main>
+  const [markdown, setMarkdown] = useState("## markdown preview");
+  return (
+    <main>
+      <section className="markdown">
+
+      </section>
+    </main>
+  );
 }
 
-export default App
+export default App;
