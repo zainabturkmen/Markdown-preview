@@ -6,7 +6,7 @@ function App() {
   return (
     <main>
       <section className="markdown">
-        <textarea className="input"></textarea>
+        <textarea className="input" value={markdown}></textarea>
       </section>
     </main>
   );
