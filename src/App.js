@@ -10,9 +10,8 @@ function App() {
           className="input"
           value={markdown}
           onChange={(e) => setMarkdown(e.target.value)}
-        >
-          heheh
-        </textarea>
+        ></textarea>
+        
       </section>
     </main>
   );
