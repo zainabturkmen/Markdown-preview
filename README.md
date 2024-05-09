@@ -1,8 +1,8 @@
-# Markdown
+# Markdown Preview
 
 ### Using react-markdown library
 
-### Visi Live
+### Visit Live
 
 [Link](https://friendly-kitten-86a218.netlify.app/)
 
